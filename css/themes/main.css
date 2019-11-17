@@ -1,0 +1,45 @@
+/* Theme */
+
+main {
+	color: rgb(255, 255, 255);
+	animation: colorchange 10s;
+  	-webkit-animation: colorchange 10s;
+  	-webkit-animation-iteration-count: infinite;
+  	animation-iteration-count: infinite;
+}
+
+.icons-social a {
+	color: rgb(255, 255, 255);
+}
+
+.icons-social a svg path{
+	fill: rgb(255, 255, 255);
+}
+
+a {
+	color: rgb(255, 255, 255);
+}
+
+.avatar img {
+	border-radius: 50%;
+	height: 170px;
+}
+
+
+@keyframes colorchange {
+	0%   {background: #55016e;}
+	20%  {background: #650881;}
+	40%  {background: #72138f;}
+	60%  {background: #7f1f9c;}
+	80%  {background: #601677;}
+	100% {background: #4f1b5f;}
+  }
+
+@-webkit-keyframes colorchange {
+	0%   {background: #55016e;}
+	20%  {background: #650881;}
+	40%  {background: #72138f;}
+	60%  {background: #7f1f9c;}
+	80%  {background: #601677;}
+	100% {background: #4f1b5f;}
+  }
